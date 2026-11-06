@@ -1,11 +1,13 @@
-# Project Overview
-This project was scaffolded using the `repo-init` skill. 
+# Context Engineering for Claude Code — Setup
 
-## Directory Layout
-- `llm-context/`: Stores context for LLM agents.
+Standalone pre-class setup repository for **Context Engineering for Claude Code**. It contains installation instructions, environment prerequisites, and verification steps for students to complete before class.
 
-## Verification Steps
-TBD
+## Tech Stack
 
-## Content Guidelines
-TBD
+- **Primary Tool:** Anthropic Claude Code CLI
+- **Supported OS:** macOS and Windows
+
+## Conventions
+
+- Keep this repository independently usable before students receive other course materials.
+- Do not link to internal or sibling course repositories.
