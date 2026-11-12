@@ -12,7 +12,7 @@ Standalone pre-class setup repository for **Context Engineering for Claude Code*
 
 | Path | Purpose |
 | :--- | :--- |
-| `Welcome.md` | Student welcome message; absolute GitHub links only (`blob/main`) |
+| `Welcome-and-Setup-Guide-Context-Claude-Code.md` | Student welcome and setup guide; absolute GitHub links only (`blob/main`) |
 | `README.md` | Entry point with relative links |
 | `catalog/` | Copy of the detailed course outline; do not edit here |
 | `install/` | `install.md`, `install-mac.md`, `install-win.md` |
@@ -31,5 +31,5 @@ python quickstart-project\test_setup.py    # Windows
 
 - Keep the repository independently usable before students receive other course materials.
 - Link only to files inside this repository. Do not name or link to any other course repository.
-- Keep install guides, `test_setup.py`, and `Welcome.md` consistent on tools and versions.
+- Keep install guides, `test_setup.py`, and `Welcome-and-Setup-Guide-Context-Claude-Code.md` consistent on tools and versions.
 - Markdown follows `.markdownlint.json`.

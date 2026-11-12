@@ -4,7 +4,7 @@ Standalone pre-class setup repository for **Context Engineering for Claude Code*
 
 ## Start Here
 
-Read [Welcome.md](Welcome.md) first.
+Read [Welcome-and-Setup-Guide-Context-Claude-Code.md](Welcome-and-Setup-Guide-Context-Claude-Code.md) first.
 
 ## Course Outline
 
