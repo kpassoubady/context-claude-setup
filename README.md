@@ -1,23 +1,38 @@
 # Context Engineering for Claude Code — Setup
 
-Standalone pre-class setup repository for **Context Engineering for Claude Code**.
+Standalone pre-class setup repository for **Context Engineering for Claude Code**. It contains everything you need to prepare your machine before the session: the course outline, installation guides for macOS and Windows, and a script that verifies your environment.
 
-Use this repository to review course requirements, install and configure Claude Code and required prerequisites, and verify your development environment before class.
+## Start Here
 
-## Course Overview
+Read [Welcome.md](Welcome.md) first.
 
-A 4-hour intensive course on context engineering principles specific to Claude Code, covering context rot, runtime context retrieval, multi-turn compaction, persistent notes, and sub-agent architectures.
+## Course Outline
 
-### Audience
-- Developers working in AI-assisted coding environments
+[Course outline](catalog/context-engineering-for-claude-code-4-hour-am-pm-outline.md): the 4-hour session schedule, learning outcomes, and prerequisites.
 
-### Prerequisites
-- Familiarity with LLM concepts and terminology
-- Basic experience with Claude Code or a comparable AI development tool
-- Access to Anthropic Claude Code CLI with valid credentials
+## Installation Guides
 
-## Getting Started
+- [Overview and tool list](install/install.md)
+- [macOS](install/install-mac.md)
+- [Windows](install/install-win.md)
 
-1. Review the installation guide for your operating system.
-2. Confirm your Claude Code CLI installation and authentication.
-3. Run the environment verification checks before attending the session.
+## Verify Your Setup
+
+Run the checks from the root of this repository (see [quickstart-project/README.md](quickstart-project/README.md)):
+
+```bash
+python3 quickstart-project/test_setup.py
+```
+
+On Windows, use `python quickstart-project\test_setup.py`. Success looks like:
+
+```text
+ALL SETUP CHECKS PASSED. You are ready for class.
+```
+
+Your Claude sign-in is not tested by the script. Run `claude` once and confirm it opens without asking you to log in.
+
+## Troubleshooting
+
+- **Command not found after install:** close and reopen your terminal.
+- **Anything else:** run `claude doctor` and share the output with your instructor.
